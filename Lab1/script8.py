@@ -8,11 +8,11 @@ Created on Mon Feb 08 22:30:33 2016
 P = raw_input("Vvedite predlojenie: ")
 P=P.split(' ')
 for x in P:
-    if len(P[x])>7:
-        print P[x]
-for x in len(P):
-    if len(P[x])>=4 and len(P[x])<=7:
-        print P[x]
-for x in len(P):
-    if len(P[x])<4:
-        print P[x]
+    if len(x)>7:
+        print x
+for x in P:
+    if len(x)>=4 and len(x)<=7:
+        print x
+for x in P:
+    if len(x)<4:    
+        print x

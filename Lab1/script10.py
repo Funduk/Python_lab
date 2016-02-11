@@ -4,7 +4,7 @@ Created on Wed Feb 10 00:55:25 2016
 
 @author: Егор
 """
-
+#script 10
 arr = list(input('Vvedite massiv: '))
 flag = True
 i=1

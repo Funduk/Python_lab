@@ -7,4 +7,5 @@ Created on Mon Feb 08 14:00:23 2016
 #script 5
 for x in range(10,100):
     if (x%10)+(x/10)==7:
-        print x
+        print x,
+print []

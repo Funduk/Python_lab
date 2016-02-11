@@ -16,8 +16,6 @@ too=[]
 min = 512
 for i in range(11)  :
     too+=[2**i]
-#    if (N-2**i)<min and (N-2**i)>0:
-#        min=N-2**i
     if (2**i-N)<min and (2**i-N)>=0:
         min=2**i-N
         st=too[i]

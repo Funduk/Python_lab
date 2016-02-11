@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """
 Created on Mon Feb 08 13:17:35 2016
 
@@ -7,7 +7,8 @@ Created on Mon Feb 08 13:17:35 2016
 
 #script 4
 N = input("Vvedite N: ")
-pi = x =1
+pi=1
+x=1
 while x !=N:
     f=float(2*x+1)
     if x%2==1:

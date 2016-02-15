@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """
 Created on Wed Feb 10 23:10:07 2016
 
@@ -20,5 +20,5 @@ for x in range(48):
                 m = [x, y, z]
 if m==[]:
     print 'Nothing to find'
-else:
+else:	
     print m
